@@ -1,0 +1,51 @@
+
+header {
+  float: left;
+  width: 590px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #09bf38;
+
+}
+
+
+
+.instructions {
+  /*float: left;*/
+
+
+  width: 270px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+#targetScore {
+	
+  width: 200px;
+  
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+ 
+#score {
+	
+  width: 200px;
+  
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+#buttons {
+	margin-bottom: 20px;
+}
