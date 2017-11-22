@@ -15,10 +15,7 @@ document.getElementById("targetScore").innerHTML = "Random Number " + targetNum;
 var wins = 0;
 var losses = 0;
 var urscore =0;
-var g1Val;
-var g2Val;
-var g3Val;
-var g4Val;
+
 
 
 $(document)
@@ -42,7 +39,7 @@ $('.children').on("click", function() {
 
   $("#score").html("Your Score " + urscore);	
 
-		console.log(urscore);
+		
 		
      } else if (who === "SP2") {
      	urscore = urscore + G2;
@@ -62,7 +59,17 @@ $('.children').on("click", function() {
     }
 })
 	
+ // function checkScore() {
+ //        if (urscore < targetNum) {
+ //            return;
+ //        } else if
+ //                (urscore === targetNum) {
+ //                	wins++;
 
+ //            $('#win').html("WINS: " +wins); 
+
+	//          }   	
+           
 
        
 
